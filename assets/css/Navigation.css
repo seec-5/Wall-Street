@@ -259,6 +259,7 @@
 			height: 70px;
 			margin: 0 auto;
 			display: flex;
+			z-index: 100;
 		}
 		.last-btn{
 			background: url(../img/logo-wse.jpg) no-repeat 0 0;
@@ -304,6 +305,7 @@
 		.last-exhibit{
 			display: none;
 			box-shadow: 0 5px 6px #5E5E5E;
+			background-color: #fff;
 		}
 		.last-exhibit li{
 			line-height: 56px;
@@ -316,6 +318,7 @@
 			display: none;
 			box-shadow: 0 5px 6px #5E5E5E;
 			background: #fff;
+			z-index: 999;
 		}
 		.last-show li{
 			line-height: 56px;
@@ -344,6 +347,7 @@
 			top: 0;
 			left: 0;
 			background: #fff;
+			z-index: 100;
 		}
 		.show-active{
 			display: none;
@@ -355,6 +359,7 @@
 			position: fixed;
 			top: 173px;
 			right: 0;
+			z-index: 100;
 		}
 		.side-box{
 			height: 63px;
@@ -424,6 +429,8 @@
 			}
 			.navigation-last{
 				display: none !important;
+				background-color: #fff;
+				z-index: 999;
 			}
 			.side-flex{
 				display: none;
