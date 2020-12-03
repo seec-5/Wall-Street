@@ -1,0 +1,23 @@
+{
+  "id": "2237619",
+  "name": "arrow-right",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17412704",
+      "name": "iOS Arrow Left",
+      "font_class": "iOSArrowLeft",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "722172",
+      "name": "arrow-right",
+      "font_class": "previewright",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@media (min-width:768px) {
+	.lq-teach-wrapper {
+		width: 100%;
+	}
+
+	.container span {
+		color: red;
+	}
+
+	.container .top-left a {
+		color: #000;
+	}
+
+	.container .top-left a:hover {
+		color: rgb(0, 130, 169);
+		text-decoration: none;
+	}
+
+	.container .image-word h1 {
+		color: #f00;
+		font-weight: bolder;
+		margin-left: 30px;
+	}
+
+	.container .image-word .info {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.container h2 {
+		font-weight: bolder;
+	}
+
+	.container .word {
+		width: 35%;
+		box-sizing: border-box;
+	}
+
+	.container .word div {
+		padding-left: 36px;
+	}
+
+	.lq-scroll-wrapper {
+		width: 90%;
+		/* margin: 0 auto; */
+		position: relative;
+		overflow: hidden;
+	}
+
+	.lq-scroll-wrapper .lq-scroll-container {
+		width: 1700px;
+		margin: 0 auto;
+		display: flex;
+		position: relative;
+		left: 0;
+		transition: .2s;
+	}
+
+	.lq-scroll-wrapper .lq-scroll-container li {
+		margin-left: 40px;
+		width: 300px;
+	}
+
+	.lq-scroll-wrapper .lq-scroll-container li img {
+		/* width: 100%; */
+	}
+
+	.arrow-left {
+		float: left;
+		margin-top: 130px;
+		display: none;
+	}
+
+	.arrow-right {
+		float: right;
+		margin-top: -300px;
+	}
+}
+
+@media (max-width:768px) {
+	.top-left {
+		display: none;
+	}
+
+	.container h1 {
+		color: #f00;
+		font-weight: bolder;
+		margin-left: 30px;
+	}
+
+	.container .image-word {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 12px;
+	}
+
+	.container .image-word img {
+		width: 260px;
+		height: 260px;
+	}
+
+	.container .image-word h1 {
+		margin-left: -50px;
+	}
+
+	.container .image-word .info {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.container h2 {
+		font-weight: bolder;
+		margin-left: -20px;
+	}
+
+	.container .word {
+		width: 35%;
+		box-sizing: border-box;
+	}
+
+	.container .word div {
+		padding-left: 36px;
+	}
+
+	.container h2 {
+		text-align: center;
+	}
+
+	.lq-scroll-wrapper {
+		display: none;
+	}
+	.carousel{
+		height:400px;
+	}
+	.carousel .carousel-inner{
+		width:90%;
+		margin: 0 auto;
+		height: 400px;
+		position: relative;
+	}
+	.carousel .carousel-inner .item img{
+		margin: 0 auto;
+	}
+	.carousel .carousel-inner .carousel-caption{
+		width:100%;
+		position: absolute;
+		bottom:-100px;
+		color:#000;
+		left:20px;
+		text-align: left;
+	}
+	
+}

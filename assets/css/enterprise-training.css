@@ -1,0 +1,661 @@
+*{
+	margin: 0;padding: 0;
+	list-style:none;
+}
+.lq-enterprise-training{
+		width:100%;
+		height:100%;
+	}
+@media (min-width:768px){
+	.lq-enterprise-training .top{
+		width:100%;
+		height: 650px;
+		background-image:url('/Wall-Street/pages/images/enterprise-training/logo-1.jpg');
+		position:relative;
+	}
+	.top .navbar{
+		display: flex;
+		color:#fff;
+		font-size:16px;
+		padding-top:20px;
+	}
+	.top .navbar li{
+		margin-left: 10px;
+	}
+	.top .navbar li a{
+		color:#fff;
+	}
+	.top .navbar li a:hover{
+		color:#00f;
+	}
+	.top .md-word{
+		position: absolute;
+		top:50%;
+		left:55%;
+		transform:translate(-50%,-50%);
+		color:#fff;
+		
+	}
+	.top .md-word div{
+		
+		font-weight: bolder;
+		font-size:35px;
+	}
+	.top .top-bottom{
+		position:absolute;
+		bottom: 50px;
+		left:55%;
+		transform: translateX(-50%);
+		display:flex;
+		justify-content: space-around;
+		width:400px;
+		height: 150px;
+		
+	}
+	.top .top-bottom div{
+		box-sizing:border-box;
+		
+	}
+	.top .top-bottom div a{
+		transition:.2s;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		display: block;
+		text-decoration: none;
+		width:100px;
+		height:100px;
+		border: 2px solid #fff;
+		border-radius:50%;
+		justify-content: space-around;
+		/* line-height: 100px; */
+		padding-top:35px;
+	}
+	.lq-enterprise-training-middle{
+		width: 40%;
+		text-align:center;
+		margin: 0 auto;
+	}
+	.our-serve{
+		width:100%;
+		/* box-sizing: border-box; */
+	}
+	.solution-list{
+		width:100%;
+		margin:0 auto;
+		display: flex;
+		justify-content: space-around;
+	}
+	.solution-list li{
+		width:40%;
+		box-sizing: border-box;
+		display: flex;
+		
+		flex-direction: column;
+	}
+	.solution-list li img{
+		width:100%;
+		height:auto;
+	}
+	.solution-list li .info{
+		width:100%;
+		padding-left: 20px;
+	}
+	.solution-list li .more {
+		width: 120px;
+		height: 120px;
+		margin-top:10px;
+		box-sizing: border-box;
+		font-size:20px;
+	}
+	.solution-list li .more a{
+		color:#fff;
+		background:#ee2d42;
+		box-shadow:0px 25px 20px rgb(247,159,169);
+		display: block;
+		width:120px;
+		height: 120px;
+		padding-top:40px;
+		border-radius:50%;
+	}
+	.solution-list li .more a:hover{
+		text-decoration: none;
+	}
+	.num-center{
+		width:400px;
+		margin: auto;
+		margin-top: 100px;
+		border-radius:50%;
+		border:3px solid #ccc;
+		height:400px;
+		position:relative;
+	}
+	.num-center .word{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		font-weight:bolder;
+		font-size:30px;
+	}
+	.num-center>div.text-center{
+		width:150px;
+		height: 150px;
+		line-height: 220px;
+		font-size: 18px;
+		color:#fff;
+	}
+	.num-center-one{
+		position:absolute;
+		left:50%;
+		transform: translateX(-50%);
+		top:-75px;
+		border-radius: 50%;
+		background-color:rgb(4,52,88);
+		background-image: url('/Wall-Street/pages/images/enterprise-training/1.png');
+		background-repeat: no-repeat;
+		background-size: center center;
+		background-position: 45px 20px;
+	}
+	.num-center-two{
+		position:absolute;
+		top:70%;
+		transform: translateY(-25%);
+		left:-45px;
+		border-radius: 50%;
+		background-color:rgb(238,45,66);
+		background-image: url('/Wall-Street/pages/images/enterprise-training/2.png');
+		background-repeat: no-repeat;
+		background-size: center center;
+		background-position: 30px 20px;
+	}
+	.num-center-three{
+		position:absolute;
+		top:70%;
+		transform: translateY(-25%);
+		right:-45px;
+		border-radius: 50%;
+		background-color:rgb(100,207,233);
+		background-image: url('/Wall-Street/pages/images/enterprise-training/3.png');
+		background-repeat: no-repeat;
+		background-size: center center;
+		background-position: 45px 20px;
+	}
+	.row{
+		width:100%;	
+		margin: 20px auto;
+		margin-left: 50px;
+	}
+	.row-one h2{
+		color:rgb(4,52,88);
+		font-weight:bolder;
+	}
+	.row-one .row-title{
+		font-size:20px;
+		color:rgb(4,52,88);
+		font-weight:bolder;
+	}
+	.row-block{
+		margin-top: 30px;
+	}
+	
+	.row-content{
+		line-height: 25px;
+	}
+	.row-two h2{
+		color:rgb(100,207,233);
+		font-weight:bolder;
+	}
+	.row-two .row-title{
+		font-size:20px;
+		color:rgb(100,207,233);
+		font-weight:bolder;
+	}
+	.row-three h2{
+		color:rgb(238,45,66);
+		font-weight:bolder;
+	}
+	.row-three .row-title{
+		font-size:20px;
+		color:rgb(238,45,66);
+		font-weight:bolder;
+	}
+	/* 品牌 */
+	.brand{
+		margin-top:20px;
+		width:100%;
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.brand .brand-circle{
+		/* box-sizing: border-box; */
+		width: 400px;
+		height: 400px;
+		background-color: rgb(238,45,66);
+		border-radius: 50%;
+		color:#fff;
+		position: relative;
+	}
+	.brand .brand-circle .brand-info{
+		position: absolute;
+		top:40%;
+		transform: translate(-50%,-50%);
+		left:50%;
+		line-height: 20px;
+		font-weight: bolder;
+	}
+	.brand-icon .brand-icon-list{
+		flex:1;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-left:50px;
+	}
+	.brand-icon .brand-icon-list li{
+		width: 33.3%;
+		margin:20px 0;
+		height: 100px;
+	}
+	.brand-icon .brand-icon-list li img{
+		/* width: 130px;
+		height:auto; */
+		vertical-align: middle;
+	}
+	.brand-icon .brand-icon-list li:nth-child(3){
+		position: relative;
+	}
+	.brand-icon .brand-icon-list li:nth-child(3) img{
+		position: absolute;
+		top:30px;
+	}
+	/* footer */
+	/* .enterprise-footer:before{
+		background-image:url(../../pages/images/enterprise-training/bg.png);
+		background-position:-555px -78px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: block;
+		width: 100%;
+		height: 50px;
+		content: '';
+	} */
+	.enterprise-footer{
+		padding-bottom: 10px;
+		background-color: rgb(215,222,228);
+		width:100%;
+		
+		
+	}
+	.enterprise-footer h2{
+		padding-top: 20px;
+	}
+	.enterprise-footer h2 span{
+		color:#f00;
+		border-bottom: 3px solid #f00;
+	}
+	.enterprise-footer-list {
+		width:100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	.enterprise-footer-item{
+		border-radius:50%;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	.enterprise-footer-list a{
+		color: #fff;
+		padding-top:30px;
+		display: block;
+	}
+	.enterprise-footer-list a:hover{
+		text-decoration: none;
+	}
+	.enterprise-footer-list a span{
+		font-size:16px;
+	}
+	.enterprise-footer-item.one{
+		width:143px;
+		height: 143px;
+		background-color: rgb(99,207,233);
+		box-shadow:0px 25px 20px rgb(181,227,237);
+	}
+	.enterprise-footer-item.two{
+		width:143px;
+		height: 143px;
+		background-color: rgb(236,43,64);
+		box-shadow:0px 25px 20px rgb(240,155,164);
+	}
+	.enterprise-footer-item.three{
+		width:143px;
+		height: 143px;
+		background-color: rgb(4,52,88);
+		box-shadow:0px 25px 20px rgb(144,163,178);
+	}
+	.enterprise-footer-word {
+		width:50%;
+		margin:40px auto;
+		border: 1px solid #ccc;
+		padding: 10px;
+	}
+	.enterprise-footer-word li{
+		list-style: disc;
+		line-height: 40px;
+		list-style-position: inside;
+	}
+}
+@media (max-width:768px){
+	.lq-enterprise-training .top{
+		width:100%;
+		height: 650px;
+		background-image:url('/Wall-Street/pages/images/enterprise-training/logo.jpg');
+	}
+	.top .navbar{
+		display: none;
+	}
+	.top .top-bottom{
+		display: none;
+	}
+	.top .md-word{
+		position: absolute;
+		top:50%;
+		left:55%;
+		transform:translate(-50%,-50%);
+		color:#fff;
+		
+	}
+	.top .md-word div{
+		font-weight: bolder;
+		font-size:30px;
+	}
+	.lq-enterprise-training-middle{
+		width: 40%;
+		margin: 0 auto;
+		font-size:12px;
+	}
+	.lq-enterprise-training-middle h1{
+		font-size: 16px;
+		font-weight:bolder;
+	}
+	.solution-list{
+		width:90%;
+		margin: 0 auto;
+	}
+	.solution-list li{
+		width:80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.solution-list li img{
+		width:50%;
+		height:auto;
+	}
+	.solution-list li .info{
+		width:65%;
+		text-align:left;
+	}
+	.solution-list li .more {
+		width: 80px;
+		height: 80px;
+		margin-top:10px;
+		box-sizing: border-box;
+		font-size:14px;
+	}
+	.solution-list li .more a{
+		color:#fff;
+		background:#ee2d42;
+		box-shadow:0px 25px 20px rgb(247,159,169);
+		display: block;
+		width:80px;
+		height: 80px;
+		padding-top:10px;
+		border-radius:50%;
+	}
+	.solution-list li .more a:hover{
+		text-decoration: none;
+	}
+	.num-center{
+		width:300px;
+		margin: auto;
+		margin-top: 100px;
+		border-radius:50%;
+		border:3px solid #ccc;
+		height:300px;
+		position:relative;
+	}
+	.num-center .word{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		font-weight:bolder;
+		font-size:20px;
+	}
+	.num-center>div.text-center{
+		width:100px;
+		height: 100px;
+		line-height: 170px;
+		font-size: 18px;
+		color:#fff;
+	}
+	.num-center-one{
+		position:absolute;
+		left:50%;
+		transform: translateX(-50%);
+		top:-35px;
+		border-radius: 50%;
+		background-color:rgb(4,52,88);
+		background-image: url('/Wall-Street/pages/images/enterprise-training/1.png');
+		background-repeat: no-repeat;
+		background-size: 60px 60px;
+		background-position:25px 10px;
+	}
+	.num-center-two{
+		position:absolute;
+		top:70%;
+		transform: translateY(-25%);
+		left:0px;
+		border-radius: 50%;
+		background-color:rgb(238,45,66);
+		background-image: url('/Wall-Street/pages/images/enterprise-training/2.png');
+		background-repeat: no-repeat;
+		background-size: 60px 60px;
+		background-position:20px 10px;
+	}
+	.num-center-three{
+		position:absolute;
+		top:70%;
+		transform: translateY(-25%);
+		right:-35px;
+		border-radius: 50%;
+		background-color:rgb(100,207,233);
+		background-image: url('/Wall-Street/pages/images/enterprise-training/3.png');
+		background-repeat: no-repeat;
+		background-size: 50px 50px;
+		background-position:25px 10px;
+	}
+	.carousel{
+		width: 300px;
+		margin: 0 auto;
+		height:400px;
+	}
+	.carousel .item{
+		width:300px;
+		margin: 0 auto;g
+		/* margin-left:50px; */
+		/* text-align: center; */
+	}
+	.row{
+		display: none;
+	}
+	.row-one h2{
+		color:rgb(4,52,88);
+		font-weight:bolder;
+	}
+	.row-one .row-title{
+		font-size:16px;
+		color:rgb(4,52,88);
+		font-weight:bolder;
+	}
+	.row-block{
+		margin-top: 10px;
+	}
+	
+	.row-content{
+		line-height: 20px;
+	}
+	.row-two h2{
+		color:rgb(100,207,233);
+		font-weight:bolder;
+	}
+	.row-two .row-title{
+		font-size:20px;
+		color:rgb(100,207,233);
+		font-weight:bolder;
+	}
+	.row-three h2{
+		color:rgb(238,45,66);
+		font-weight:bolder;
+	}
+	.row-three .row-title{
+		font-size:20px;
+		color:rgb(238,45,66);
+		font-weight:bolder;
+	}
+	
+	 .carousel-control {
+		color:#000;
+		background:#fff;
+		box-shadow: 0;
+	}
+	.carousel-inner .carousel-control:hover{
+		background-color: #fff;
+	}
+	/* 品牌 */
+	.brand{
+		margin-top:20px;
+		width:100%;
+	}
+	.brand .brand-circle{
+		width: 260px;
+		height: 260px;
+		background-color: rgb(238,45,66);
+		border-radius: 50%;
+		color:#fff;
+		position: relative;
+		margin:0 auto;
+	}
+	.brand .brand-circle .brand-info{
+		position: absolute;
+		top:40%;
+		transform: translate(-50%,-50%);
+		left:50%;
+		line-height: 20px;
+		font-weight: bolder;
+	}
+	.brand .brand-circle .brand-info h2{
+		font-size:16px;
+	}
+	.brand-icon .brand-icon-list{
+		width: 260px;
+		height: 260px;
+		margin: 0 auto;
+		flex:1;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		align-items: center;
+		
+	}
+	.brand-icon .brand-icon-list li{
+		width: 33.3%;
+		margin:10px 0;
+		height: 60px;
+	}
+	.brand-icon .brand-icon-list li img{
+		width: 60px;
+		height: 40px;
+	}
+	.enterprise-footer{
+		/* background-image:url(../../pages/images/enterprise-training/bg.png);
+		width:100%;
+		background-position:1200px -73px;
+		height: 60px; */
+		background-color: rgb(215,222,228);
+		box-sizing: border-box;
+	}
+	.enterprise-footer h2{
+		padding-top: 20px;
+	}
+	.enterprise-footer h2 span{
+		color:#f00;
+		border-bottom: 3px solid #f00;
+	}
+	.enterprise-footer-item{
+		width:100%;
+	}
+	.enterprise-footer-item.two{
+		overflow:hidden;
+	}
+	.enterprise-footer-list {
+		width:100%;
+	}
+	
+	.enterprise-footer-item{
+		border-radius:50%;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	
+	.enterprise-footer-list a{
+		color: #fff;
+		padding-top:30px;
+		display: block;
+	}
+	.enterprise-footer-list a:hover{
+		text-decoration: none;
+	}
+	.enterprise-footer-list a span{
+		font-size:16px;
+	}
+	.enterprise-footer-item.one{
+		width:143px;
+		height: 143px;
+		display:block;
+		background-color: rgb(99,207,233);
+		box-shadow:0px 25px 20px rgb(181,227,237);
+	}
+	.enterprise-footer-item.two{
+		width:143px;
+		height: 143px;
+		margin-left:35%;
+		transform:translateX(100%);
+		background-color: rgb(236,43,64);
+		box-shadow:0px 25px 20px rgb(240,155,164);
+	}
+	.enterprise-footer-item.three{
+		width:143px;
+		height: 143px;
+		background-color: rgb(4,52,88);
+		box-shadow:0px 25px 20px rgb(144,163,178);
+	}
+	.enterprise-footer-word {
+		width:50%;
+		margin:40px auto;
+		border: 1px solid #ccc;
+		padding: 10px;
+		font-size: 12px;
+	}
+	.enterprise-footer-word li{
+		list-style: disc;
+		line-height: 20px;
+		list-style-position: inside;
+	}
+	
+}
