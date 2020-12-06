@@ -225,20 +225,37 @@
 	}
 	/* 品牌 */
 	.brand{
-		margin-top:20px;
 		width:100%;
-		display:flex;
+		height:100%;
+		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		position: relative;
+		overflow: hidden;
+		padding:40px 0;
+		padding-top: 100px;
+	}
+	.brand::before{
+		display: block;
+		content: "";
+		position: absolute;
+		width: 2111px;
+		height: 2111px;
+		border: 3px solid #000;
+		border-radius: 50%;
+		top: 0px;
+		left:-100px;
+		z-index: -1;	
 	}
 	.brand .brand-circle{
-		/* box-sizing: border-box; */
-		width: 400px;
-		height: 400px;
+		width: 400px !important;
+		min-width: 400px !important;
+		height: 400px !important;
 		background-color: rgb(238,45,66);
 		border-radius: 50%;
 		color:#fff;
 		position: relative;
+		overflow-x:auto ;
 	}
 	.brand .brand-circle .brand-info{
 		position: absolute;
@@ -248,48 +265,36 @@
 		line-height: 20px;
 		font-weight: bolder;
 	}
+	.brand-icon{
+		width:600px;
+		min-width: 600px;
+		/* width:calc(100%-400); */
+	}
 	.brand-icon .brand-icon-list{
+		/* width:500px; */
 		flex:1;
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
 		align-items: center;
-		margin-left:50px;
+		padding-left: 50px;
+		/* margin-left:50px; */
 	}
 	.brand-icon .brand-icon-list li{
-		width: 33.3%;
-		margin:20px 0;
-		height: 100px;
+		width:33%;
+		height:100px;
+		text-align: center;
+		line-height: 100px;
+		
 	}
-	.brand-icon .brand-icon-list li img{
-		/* width: 130px;
-		height:auto; */
-		vertical-align: middle;
-	}
-	.brand-icon .brand-icon-list li:nth-child(3){
-		position: relative;
-	}
-	.brand-icon .brand-icon-list li:nth-child(3) img{
-		position: absolute;
-		top:30px;
-	}
+	
+	
 	/* footer */
-	/* .enterprise-footer:before{
-		background-image:url(../../pages/images/enterprise-training/bg.png);
-		background-position:-555px -78px;
-		background-size: cover;
-		background-repeat: no-repeat;
-		display: block;
-		width: 100%;
-		height: 50px;
-		content: '';
-	} */
+	
 	.enterprise-footer{
 		padding-bottom: 10px;
 		background-color: rgb(215,222,228);
 		width:100%;
-		
-		
 	}
 	.enterprise-footer h2{
 		padding-top: 20px;
@@ -481,15 +486,16 @@
 		background-position:25px 10px;
 	}
 	.carousel{
-		width: 300px;
+		width:70%;
 		margin: 0 auto;
 		height:400px;
 	}
 	.carousel .item{
-		width:300px;
-		margin: 0 auto;g
-		/* margin-left:50px; */
-		/* text-align: center; */
+		width:100%;
+		margin: 0 auto;
+	}
+	.glyphicon.glyphicon-chevron-left{
+		margin-right:-20px;
 	}
 	.row{
 		display: none;
@@ -529,18 +535,38 @@
 		font-weight:bolder;
 	}
 	
-	 .carousel-control {
-		color:#000;
-		background:#fff;
-		box-shadow: 0;
+	.carousel-control span{
+		/* background-color: rgba(255,255,255,1); */
+		font-size: 30px;
 	}
-	.carousel-inner .carousel-control:hover{
-		background-color: #fff;
+	.carousel-control.left{
+		left:-35px;
+		background-image: none;
+		color:#000;
+	}
+	.carousel-control.right{
+		right:-30px;
+		background-image: none;
+		color:#000;
 	}
 	/* 品牌 */
 	.brand{
-		margin-top:20px;
+		margin-top:30px;
 		width:100%;
+		position: relative;
+		overflow: hidden;
+	}
+	.brand::before{
+		display: block;
+		content: "";
+		position: absolute;
+		width: 1000px;
+		height: 1000px;
+		border: 3px solid #000;
+		border-radius: 50%;
+		top: 100px;
+		left:0px;
+		z-index: -1;	
 	}
 	.brand .brand-circle{
 		width: 260px;
@@ -583,10 +609,7 @@
 		height: 40px;
 	}
 	.enterprise-footer{
-		/* background-image:url(../../pages/images/enterprise-training/bg.png);
-		width:100%;
-		background-position:1200px -73px;
-		height: 60px; */
+		
 		background-color: rgb(215,222,228);
 		box-sizing: border-box;
 	}
@@ -605,8 +628,8 @@
 	}
 	.enterprise-footer-list {
 		width:100%;
+		height:430px;
 	}
-	
 	.enterprise-footer-item{
 		border-radius:50%;
 		text-align: center;
@@ -624,6 +647,11 @@
 	.enterprise-footer-list a span{
 		font-size:16px;
 	}
+	.clearfix::after{
+		display: block;
+		clear:both;
+		content: "";
+	}
 	.enterprise-footer-item.one{
 		width:143px;
 		height: 143px;
@@ -634,8 +662,8 @@
 	.enterprise-footer-item.two{
 		width:143px;
 		height: 143px;
-		margin-left:35%;
-		transform:translateX(100%);
+		
+		float: right;
 		background-color: rgb(236,43,64);
 		box-shadow:0px 25px 20px rgb(240,155,164);
 	}
@@ -644,6 +672,7 @@
 		height: 143px;
 		background-color: rgb(4,52,88);
 		box-shadow:0px 25px 20px rgb(144,163,178);
+		margin-top:143px;
 	}
 	.enterprise-footer-word {
 		width:50%;

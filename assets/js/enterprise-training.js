@@ -9,6 +9,4 @@ $('.top-bottom div a').hover(function(){
 		color:'#fff',
 	})
 })
-// if($(window).innerWidth()>=768){
-// 	$('.brand-circle').height($('.brand-circle').width())
-// }
+
