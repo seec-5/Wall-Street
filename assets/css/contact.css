@@ -214,33 +214,33 @@
 	.contact-mation{
 		display: block;
 		height: 780px;
-		width: 100%;
+		width: 768px;
 	}
 	.mation-one{
-		width: 100%;
+		width: 768px;
 		overflow: hidden;
 		padding-bottom: 30px;
 	}
 	.mation-two{
-		width: 100%;
+		width: 768px;
 		overflow: hidden;
 		padding-bottom: 30px;
 	}
 	.foot-inp{
-		width: 100%;
+		width: 768px;
 		height: 450px;
 		padding: 0;
 		background-color: ;
 	}
 	.foot-inp-item{
-		width: 100%;
+		width: 768px;
 		overflow: hidden;
 		background-color: #d7dee4;
 		margin: 0;
 		height: 200px;
 	}
 	.contact-botton{
-		width: 100%;
+		width: 768px;
 		height: 820px;
 		background-color: #d7dee4;
 	}
