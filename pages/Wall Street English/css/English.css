@@ -124,8 +124,10 @@
 	list-style: none;
 	float: left;
 	margin-left: 15px;
-
 }
+/* .banner2 .round .swiper-container{
+	margin-left: 50px;
+} */
 .main{
 	width:100%;
 	height: 750px;
