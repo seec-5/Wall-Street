@@ -1,0 +1,247 @@
+.contact{
+	width: 100%;
+}
+.contact-box{
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+.contact-head{
+	line-height: 88px;
+}
+.contact-nav li{
+	font-size: 16px;
+	display: inline-block;
+	text-align: center;
+}
+.contact-active{
+	color: #ee2d42;
+	font-weight: bold;
+}
+.contact-sub{
+	width: 100%;
+	padding:0 60px 0 80px;
+}
+.sub-title{
+	color: #ee2d42;
+	font-size: 60px;
+	line-height: 70px;
+	font-weight: bold;
+	margin: 20px 0 50px;
+}
+.contact-mation{
+	width: 100%;
+	display: flex;
+	height: 260px;
+}
+.mation-one,.mation-two,.mation-thr{
+	width: 33%;
+	margin: 0 10px 0 10px;
+}
+.one-column button{
+	width: 49px;
+	height: 49px;
+	background: url(../img/sprites_img.png) no-repeat -1459px -323px;
+	border: none;
+	float: left;
+	margin-top: 20px;
+	margin-right: 30px
+	
+}
+.one-db{
+	/* float: left; */
+	margin: 10px 0;
+}
+.db-small{
+	font-size: 16px;
+	line-height: 24px;
+	color: #043458;
+	font-weight: 600;
+	padding-top: 10px;
+}
+.db-big{
+	font-size: 30px;
+	line-height: 40px;
+	color: #043458;
+}
+.two-column button{
+	width: 55px;
+	height: 55px;
+	background: url(../img/sprites_img.png) no-repeat -1212px -323px;
+	border: none;
+	float: left;
+	margin-top: 20px;
+	margin-right: 30px
+}
+.db-wz{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 10px;
+	/* color: #043458; */
+	font-weight: bold;
+}
+.mation-two h1{
+	font-size: 30px;
+	color: #ee2d42;
+	font-weight: bold;
+	margin-bottom: 7px;
+	margin-top: 10px;
+}
+.mation-two p{
+	color: #043458;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 4px 0;
+}
+.mation-two p:nth-child(1){
+	line-height: 24px;
+	font-weight: bold;
+}
+.mation-thr div{
+	height: 80px;
+}
+.mation-thr div p{
+	color: #ee2d42;
+	font-size: 30px;
+	font-weight: bold;
+}
+.mation-thr div span{
+	display: inline-block;
+	line-height: 24px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.contact-botton{
+	width: 100%;
+}
+.botton-head{
+	width: 100%;
+	height: 75px;
+	background: url(../img/bg-contact-before.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+.botton-foot{
+	width: 100%;
+	height: 670px;
+	padding: 20px 150px 0;
+	background-color: #d7dee4;
+	color: #043458;
+}
+.botton-foot h2{
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+.botton-foot p{
+	/* width: 100%; */
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	padding-top: 20px;
+}
+.foot-inp{
+	padding: 20px 180px;
+	height: 410px;
+	width: 100%;
+}
+.foot-inp-head{
+	width: 100%;
+	text-align: right;
+	font-size: 18px;
+	margin: 20px;
+	float: right;
+}
+.foot-inp input{
+	border: none;
+	outline: none;
+	display: inline-block;
+}
+.foot-inp-item{
+	width: 50%;
+	height: 216px;
+	margin-top: 66px;
+	float: left;
+}
+.mui-input-row label{
+	font-size: 18px;
+	line-height: 25px;
+	width: 153px;
+}
+.mui-input-row input{
+	width: 222px;
+	height: 33px;
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+.foot-inp-clear{
+	margin-left: 156px;
+}
+.mui-input-row select{
+	width: 222px;
+	height: 33px;
+	margin-bottom: 8px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	display: inline-block;
+}
+.mui-input-row select option{
+	width: 222px;
+	height: 33px;
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+.send-out{
+	width: 136px;
+	height: 136px;
+	margin: 0 auto;
+}
+.send-out button{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	background-color: #ee2d42;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	box-shadow: 0 0 24px #ee2d42;
+}
+@media (max-width: 768px) {
+	.contact-mation{
+		display: block;
+		height: 780px;
+		width: 768px;
+	}
+	.mation-one{
+		width: 768px;
+		overflow: hidden;
+		padding-bottom: 30px;
+	}
+	.mation-two{
+		width: 768px;
+		overflow: hidden;
+		padding-bottom: 30px;
+	}
+	.foot-inp{
+		width: 768px;
+		height: 450px;
+		padding: 0;
+		background-color: ;
+	}
+	.foot-inp-item{
+		width: 768px;
+		overflow: hidden;
+		background-color: #d7dee4;
+		margin: 0;
+		height: 200px;
+	}
+	.contact-botton{
+		width: 768px;
+		height: 820px;
+		background-color: #d7dee4;
+	}
+}
