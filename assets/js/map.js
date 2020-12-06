@@ -1,4 +1,6 @@
-$('.selectCity').click(function() {
+$('#navigation').load('../../pages/home/Navigation.html')
+$(function(){
+	$('.selectCity').click(function() {
 	$('.select-city .cities').css({
 		display: 'block'
 	})
@@ -17,7 +19,7 @@ $('.cities .li').click(function() {
 		display: 'none'
 	})
 	$.ajax({
-		url: '/Wall-Street/assets/json/mapData.json',
+		url: '../../assets/json/mapData.json',
 		type: 'get',
 		success: (data) => {
 			console.log(index)
@@ -94,3 +96,5 @@ var infoWindow = new BMapGL.InfoWindow(
 									</div>`,
 	opts);
 map.openInfoWindow(infoWindow, map.getCenter());
+
+})

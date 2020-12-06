@@ -1,3 +1,4 @@
+$('#a').load('../../pages/home/Navigation.html')
 $('.top-bottom div a').hover(function(){
 	$(this).css({
 		background:'#fff',

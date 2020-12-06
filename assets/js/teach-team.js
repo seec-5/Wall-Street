@@ -1,3 +1,4 @@
+$('#navigation').load('../../pages/home/Navigation.html')
 var lqScrollWrapper = $('.lq-scroll-wrapper')[0]
 
 // var bs = new BScroll(lqScrollWrapper,{
@@ -21,24 +22,72 @@ var lqScrollWrapper = $('.lq-scroll-wrapper')[0]
 	
 // })
  
+// if(parseInt($('.swiper-wrapper .swiper-slide').eq(4).offset().left)>=583){
+// 	$('.arrow-right').css({
+// 		display:'none'
+// 	})
+// 		$('.arrow-left').css({
+// 		display:'block'
+// 	})
+// }
+// if(parseInt($('.swiper-wrapper .swiper-slide').eq(0).offset().left)<=83){
+// 	$('.arrow-right').css({
+// 		display:'block'
+// 	})
+// 		$('.arrow-left').css({
+// 		display:'none'
+// 	})
+// }
+$('.arrow-left').click(function(){
+	$('.swiper-wrapper').css({
+		transform:"translateX(0%)",
+		transition:'0.4s'
+	})
 
-
-
-
-$('.arrow-right').on('click',function(){
-	$('.lq-scroll-container').css({'left':'-65%',transition:'0.4s'})
-	$(this).css('display','none')
-	// bs.off('scroll')
-	$('.arrow-left').css('display','block')
-})	
-$('.arrow-left').css('display','none')
-$('.arrow-left').on('click',function(){
-	// bs.refresh()
-	$('.lq-scroll-container').css({'left':'0',transition:'0.4s'})
-	$(this).css('display','none')
-	$('.arrow-right').css('display','block')
+	$(this).css({
+		display:'none'
+	})
+		$('.arrow-right').css({
+		display:'block'
+	})
 })
-if(parseInt($('.lq-scroll-container').position().left===-700)){
-	$('.arrow-left').css('display','block')
-	$('.arrow-right').css('display','none')
+$('.arrow-right').click(function(){
+	let w = $(window).innerWidth()/3*2
+	$('.swiper-wrapper').css({
+		transform:"translateX(-66.6%)",
+		transition:'0.4s'
+	})
+	$(this).css({
+		display:'none'
+	})
+		$('.arrow-left').css({
+		display:'block'
+	})
+})
+var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+			freeMode: true,
+			activeIndex:0,
+		on:{
+				slideChange:function(swiper){
+		if(swiper.activeIndex>=2){
+			$('.arrow-right').css({
+		display:'none'
+	})
+		$('.arrow-left').css({
+		display:'block'
+	})
+		}else{
+			$('.arrow-right').css({
+		display:'block'
+	})
+		$('.arrow-left').css({
+		display:'none'
+	})
 }
+		}
+		}
+    });
+
+
