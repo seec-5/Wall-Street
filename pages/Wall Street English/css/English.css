@@ -29,13 +29,13 @@
 	text-decoration: none;
 	color: white;
 }
-.nav .container{
+.nav .containers{
 	margin-top: 100px;
 	width: 100%;
 	height: 50px;
 	/* background: yellow; */
 }
-.nav .container span{
+.nav .containers span{
 	margin-left: 500px;
 	margin-top: 20px;
 	font-size: 55px;
@@ -56,10 +56,10 @@
 	width: 500px;
 	height: 900px;
 }
-.content{
+.contents{
 	margin-left: 45%;
 }
-.content span{
+.contents span{
 	font-size: 40px;
 }
 .content-bottom{
@@ -92,15 +92,12 @@
 	height: 900px;
 	/* background: gray; */
 }
-.banner2 .container{
+.banner2 .containers{
     width: 1181px;
     padding: 0;
 }
-.banner2 .container{
 
-
-}
-.banner2 .container h1{
+.banner2 .containers h1{
 	color: #043458;
 	margin-left: auto;
 	margin-right: auto;
@@ -125,7 +122,7 @@
 	float: left;
 	margin-left: 15px;
 }
-/* .banner2 .round .swiper-container{
+/* .banner2 .round .swiper-containers{
 	margin-left: 50px;
 } */
 .main{
@@ -133,7 +130,7 @@
 	height: 750px;
 	/* background:green; */
 }
-.main .container span{
+.main .containers span{
 	font-size: 40px;
 	color:red;
 	margin-left: 200px;
@@ -190,7 +187,7 @@
  	 margin-top: 20px;
  }
 
- .main2 .container span{
+ .main2 .containers span{
  	font-size: 40px;
  	color:#043458;
  	margin-left: 20px;
@@ -201,7 +198,6 @@
  	list-style: none;
  	width: 600px;
  	height: 400px;
- 
  }
  .viewbox li img{
  	width: 600px;
@@ -223,7 +219,7 @@
  	width: 150px;
  	height: 150px;
  }
-.viewbox .content{
+.viewbox .contents{
  	margin-left: -30px;
 	margin-top: 15px;
  }
