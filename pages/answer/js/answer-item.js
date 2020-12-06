@@ -6,6 +6,7 @@ let res={
         "3. 您将回到“华尔街英语”登录页面，点击“忘记密码”按钮，即可得到您的登录名并重置您的密码。"
     ]
 }
+$(".head").load("/Wall-Street/pages/home/Navigation.html")
 $(`<div class="top-crumbs">
 <p>首页</p>
 <p>常见问题解答</p>

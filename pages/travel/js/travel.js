@@ -96,6 +96,7 @@ let arr = [
                 ]
         }
 ]
+$(".head").load("/Wall-Street/pages/home/Navigation.html")
 for(let i in arr){
         if(i%2==0){
 

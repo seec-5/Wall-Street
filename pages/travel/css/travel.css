@@ -18,14 +18,19 @@ body .travel-box .container {
   margin: 0 auto;
 }
 
+body .travel-box .container .travel-box-top {
+  display: flex;
+}
+
 body .travel-box .container .travel-box-top .travel-box-top-left .top-crumbs {
   display: flex;
   margin-top: 17px;
-  margin-left: 5px;
+  margin-left: -50px;
   padding: 0 20px;
   justify-content: space-around;
   width: 180px;
   font-weight: 700;
+  font-size: 16px;
 }
 
 body .travel-box .container .travel-box-top .travel-box-top-left .top-crumbs p:nth-child(2) {
@@ -328,6 +333,7 @@ body .travel-box .container .travel-content .travel-content-line .dot.active div
   }
   .travel-box-top .travel-box-top-left .learn-top h1 {
     font-size: 30px !important;
+    line-height: 30px !important;
   }
   .travel-box-top .travel-box-top-left .learn-top p {
     line-height: 20px !important;

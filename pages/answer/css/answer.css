@@ -9,6 +9,7 @@
 .answer-box .top-crumbs {
   display: flex;
   width: 152px;
+  margin-left: 80px;
 }
 
 .answer-box .top-crumbs p {
