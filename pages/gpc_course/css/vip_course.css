@@ -157,7 +157,6 @@
     color: #333;
     padding-left:45px;
 		position: relative;
-		background-color: red;
 }
 
 #gpc_main .main-content .scroll-left>li>p:before{
@@ -193,6 +192,8 @@
 	width: 100%;
 	float:right;
 	margin-right:50px;
+		margin-top:100px;
+
 }
 
 #gpc_main .course .course_title{
@@ -928,4 +929,11 @@ transform:translateX(-2px) scale(0.95);
 	margin-left:100px;
 }
 /* 媒体查询要结束了 */
+}
+
+.big{
+	height: 0px !important;
+}
+.active{
+	background-color: transparent !important;
 }

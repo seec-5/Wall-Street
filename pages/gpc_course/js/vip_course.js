@@ -58,9 +58,6 @@
 			floorBtn[i].classList.remove("active");
 		}
 		// floorBtn[current].style.color = "red"
-		console.log(current);
-		console.log(floorBtn[current]);
-
 		floorBtn[current].classList.add("active");
 	}
 
