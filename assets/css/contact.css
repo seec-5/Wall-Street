@@ -1,5 +1,6 @@
 .contact{
 	width: 100%;
+	z-index: -1;
 }
 .contact-box{
 	width: 1180px;

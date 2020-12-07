@@ -6,6 +6,7 @@
 			height:40px;
 			background-color: #f2f1f1;
 			/* display: none; */
+			z-index: 999;
 		}
 		.navbar{
 			width: 1181px;
@@ -97,6 +98,7 @@
 		}
 		.navbar-change{
 			/* display: none; */
+			z-index: 999;
 		}
 		.nav-left li:hover{
 			background-color: #fff;
@@ -200,6 +202,7 @@
 		.show-headson{
 			width: 100%;
 			height: 100%;
+			z-index: 999;
 		}
 		.headson-list{
 			color: #fff;
@@ -338,11 +341,6 @@
 		}
 		.last-earmark:hover .last-exhibit{
 			display: block;
-		}
-		.big{
-			height: 1000px;
-			width: 100%;
-			/* background: red; */
 		}
 		.bigbox{
 			width: 100%;
