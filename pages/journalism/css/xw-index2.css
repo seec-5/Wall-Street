@@ -8,7 +8,7 @@
 .section{
 	width: 100%;
 	height: 70px;
-	background: pink;
+	/* background: pink; */
 }
 .section ul{
 	margin-left: 50px;
