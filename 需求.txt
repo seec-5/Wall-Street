@@ -1,0 +1,12 @@
+assets 存放公共资源，道航，页脚，以及公共图片，公共插件jq等
+pages里面存放各自的页面，建好自己的文件夹名，自己的js，css文件存放自己的内容中
+index.html是首页js和css可以存放在assets/js中
+
+需求：
+数据不能直接写在dom中，需要在js里，需要使用i18n实现中英文切换，https://gitee.com/mirrors/jquery.i18n#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95文档，需要服务器中运行（本地即可或编辑器自带）。
+
+可以使用编译语法，比如pug和sass以及less，方便编码，less或sass编码工具 koala
+
+使用的Bootstrap3
+
+js部分使用jq
