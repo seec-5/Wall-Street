@@ -128,6 +128,7 @@
 	color:black;
 }
 #gpc_main .wrap-circle .circle li a{
+	color: #fff;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -136,7 +137,10 @@
 	font-size:16px;
 	font-weight:bold;
 }
-
+#gpc_main .wrap-circle .circle li:hover a{
+	color:black;
+	text-decoration:none;
+}
 /* 主要展示区域 */
 #gpc_main .main-content{
 	width: 100%;

@@ -75,4 +75,5 @@
 }
 {
 	$(".head").load("../../home/Navigation.html");
+	$(".footer").load("../../wll-demo/foot.html");
 }
