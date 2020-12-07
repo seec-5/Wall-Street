@@ -1,3 +1,4 @@
+
 {
 	$("[i18n]").i18n({
 		defaultLang: "cn",
@@ -60,7 +61,7 @@
 		console.log(current);
 		console.log(floorBtn[current]);
 
-		floorBtn[current - 1].classList.add("active");
+		floorBtn[current].classList.add("active");
 	}
 
 	// 循环绑定监听事件
@@ -74,4 +75,7 @@
 			})
 		}
 	}
+}
+{
+	$(".head").load("../../home/Navigation.html");
 }

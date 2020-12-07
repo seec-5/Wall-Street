@@ -156,7 +156,8 @@
     line-height: 35px;
     color: #333;
     padding-left:45px;
-    position: relative;
+		position: relative;
+		background-color: red;
 }
 
 #gpc_main .main-content .scroll-left>li>p:before{
