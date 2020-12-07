@@ -1,0 +1,1 @@
+$(".foot").load("/Wall-Street/pages/wll-demo/foot.html")

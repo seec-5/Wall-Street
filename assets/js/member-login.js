@@ -14,3 +14,4 @@ $('.active-one').click(function(){
 	$(".active-two").css("background-color","#fff")
 	$(".active-two").css("color","#043458")
 })
+$(".foot").load("/Wall-Street/pages/wll-demo/foot.html")

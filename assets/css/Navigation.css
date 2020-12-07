@@ -13,7 +13,7 @@
 			height: 40px;
 			margin: 0 auto;
 		}
-		.nav-left{
+		.nav-left{ 
 			float: left;
 			width: 270px;
 			font-size: 14px;
@@ -95,6 +95,9 @@
 		.nav-right li button:nth-child(1){
 			color: #043458;
 			font-weight: 600;
+		}
+		.nav-right li:last-child(){
+			display: flex;
 		}
 		.navbar-change{
 			/* display: none; */
