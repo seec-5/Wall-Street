@@ -1,3 +1,4 @@
+$('#navigation').load('../../pages/home/Navigation.html')
 $('.province-wrapper input').focus(function(){
 	$('.cities').css({
 		display:'block'

@@ -42,10 +42,12 @@
 
 	.container span {
 		color: red;
+		font-size: 20px;
 	}
 
 	.container .top-left a {
 		color: #000;
+		font-size: 20px;
 	}
 
 	.container .top-left a:hover {
@@ -56,14 +58,15 @@
 	.image-word {
 		position: relative;
 		overflow: hidden;
+		margin-top: 40px;
 	}
 
 	.image-word:before {
 		display: block;
 		content: "";
 		position: absolute;
-		width: 2200px;
-		height: 2200px;
+		width: 2250px;
+		height: 2250px;
 		border: 3px solid #000;
 		border-radius: 50%;
 		top: -1775.5px;
@@ -73,14 +76,28 @@
 
 	.container .image-word h1 {
 		color: #f00;
-		font-weight: bolder;
+		font-size: 40px;
 		margin-left: 30px;
+	}
+
+	.container .image-word .info .word>h2 {
+		color: rgb(4, 52, 88);
+		font-weight: bolder;
+		font-size: 40px;
+	}
+
+	.title-team {
+		color: rgb(4, 52, 88);
+		font-size: 30px;
+		line-height: 50px;
+		margin: 20px 0;
 	}
 
 	.container .image-word .info {
 		width: 100%;
 		display: flex;
 		justify-content: space-around;
+		font-size: 16px;
 	}
 
 	.container h2 {
@@ -95,8 +112,6 @@
 	.container .word div {
 		padding-left: 36px;
 	}
-
-
 
 	.arrow-left {
 		position: absolute;
@@ -113,26 +128,29 @@
 		transform: translateY(-50%);
 	}
 
+	.swiper-container h3 {
+		color: rgb(4, 52, 88);
+		font-weight: bolder;
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	}
 
 }
 
 @media (max-width:768px) {
-	.arrow-left {
-		display: none;
-	}
-
-	.arrow-right {
-		display: none;
-	}
 
 	.top-left {
 		display: none;
 	}
 
-	.container h1 {
+	.container .image-word h1 {
 		color: #f00;
 		font-weight: bolder;
 		margin-left: 30px;
+		font-size: 30px;
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 
 	.container .image-word {
@@ -141,7 +159,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	.container .image-word img {
@@ -162,6 +180,9 @@
 	.container h2 {
 		font-weight: bolder;
 		margin-left: -20px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		font-size: 20px;
 	}
 
 	.container .word {
@@ -213,6 +234,14 @@
 	}
 
 	.swiper-container {
+		display: none;
+	}
+
+	.scroll .arrow-left {
+		display: none;
+	}
+
+	.scroll .arrow-right {
 		display: none;
 	}
 }
