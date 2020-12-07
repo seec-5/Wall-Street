@@ -337,7 +337,7 @@
 			color: #0082a9;
 		}
 		.last-included:hover .last-show{
-			display: block;
+			display: block; 
 		}
 		.last-earmark:hover .last-exhibit{
 			display: block;
