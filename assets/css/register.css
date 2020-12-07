@@ -4,12 +4,17 @@
 	content: '';
 }
 
+.lq-register-wrapper {
+	margin-bottom: 130px;
+}
+
 @media (min-width:768px) {
 	.container>h2 {
 		font-size: 50px;
 		color: rgb(4, 52, 88);
 		font-weight: bolder;
 		margin-left: 50px;
+
 	}
 
 	.pull-right {

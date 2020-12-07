@@ -1,4 +1,5 @@
 $('#a').load('../../pages/home/Navigation.html')
+$('#footer').load('../../pages/wll-demo/foot.html')
 $('.top-bottom div a').hover(function(){
 	$(this).css({
 		background:'#fff',

@@ -12,6 +12,7 @@
 	.map-top {
 		width: 100%;
 		display: flex;
+		margin-top: 20px;
 	}
 
 	.map-top-left .select {

@@ -1,6 +1,7 @@
 "use strict";
 
 $('#navigation').load('../../pages/home/Navigation.html');
+$('#footer').load('../../pages/wll-demo/foot.html');
 $(function () {
   $('.selectCity').click(function () {
     $('.select-city .cities').css({

@@ -1,4 +1,5 @@
 $('#navigation').load('../../pages/home/Navigation.html')
+$('#footer').load('../../pages/wll-demo/foot.html')
 $('.province-wrapper input').focus(function(){
 	$('.cities').css({
 		display:'block'

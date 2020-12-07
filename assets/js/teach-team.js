@@ -1,4 +1,5 @@
 $('#navigation').load('../../pages/home/Navigation.html')
+$('#footer').load('../../pages/wll-demo/foot.html')
 var lqScrollWrapper = $('.lq-scroll-wrapper')[0]
 
 // var bs = new BScroll(lqScrollWrapper,{
