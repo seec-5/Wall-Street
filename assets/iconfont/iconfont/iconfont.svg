@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="iOSArrowLeft" unicode="&#59099;" d="M183.296 384l362.325333 372.352a32 32 0 1 1-45.866666 44.629333l-384-394.666666a32 32 0 0 1 0-44.629334l384-394.666666a32 32 0 1 1 45.866666 44.629333L183.253333 384z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="previewright" unicode="&#59228;" d="M689.621 384l-328.832 328.832-60.331-60.331 268.501-268.501-268.501-268.501 60.331-60.331z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

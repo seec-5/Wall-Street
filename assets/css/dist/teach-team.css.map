@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["teach-team.sass"],"sourcesContent":[".lq-teach-wrapper\r\n\twidth: 100%\r\n\t.container\r\n\t\t.top-left\r\n\t\t\tspan\r\n\t\t\t\tcolor: #f00\r\n"],"file":"teach-team.css"}

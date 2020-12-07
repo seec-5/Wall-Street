@@ -24,8 +24,10 @@ legend{color:#000;}
 
 fieldset,img{border:0;}
 
-button,input,select,textarea{font-size:100%;background: none;}
-
+button,input,select,textarea{font-size:100%;}
+button{
+    background: none;
+}
 table{border-collapse:collapse;border-spacing:0;}
 
 .clearfix::after{content:"";display: block;clear: both;}
