@@ -24,6 +24,7 @@ let arr=[{
     texts:["课程预定指导1","课程预定指导2","课程预定指导3","课程预定指导4","课程预定指导5","课程预定指导6","课程预定指导7","课程预定指导8","课程预定指导9","课程预定指导10"]
 }]
 $(".head").load("/Wall-Street/pages/home/Navigation.html")
+$(".foot").load("/Wall-Street/pages/wll-demo/foot.html")
 
 // $(".answer-cont-box-left ul").append(``)
 var textindex=0
