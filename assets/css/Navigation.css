@@ -11,6 +11,9 @@
 .navigation button{
 	background: none;
 }
+.navigation a{
+	color: #000;
+}
 		.navbar {
 			width: 1181px;
 			height: 40px;
@@ -320,6 +323,9 @@
 			margin: 0 auto;
 			display: flex;
 			z-index: 100;
+		}
+		.navigation-last a{
+			color: #000;
 		}
 
 		.last-btn {

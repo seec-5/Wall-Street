@@ -45,6 +45,7 @@ arr.forEach((item,index)=>{
 
 console.log($(".answer-cont-box-left ul").find('li:first').addClass("active"))
 function textfn(arr){
+    $(".answer-cont-box-rigt ul").html(``)
     arr.forEach((item,indexs)=>{
         $(`<li><span>${indexs+1}</span> ${item}</li>`).appendTo($(".answer-cont-box-rigt ul"))
         
@@ -75,6 +76,7 @@ $(".answer-ipt-left .sele select").on("input",function(){
     
     console.log($(this).val())
     textfn(arr[$(this).val()].texts)
+    console.log(arr[$(this).val()].texts)
 })
 $(".answer-cont-box-rigt ul").on("click","li",function(){
     location.href="answer-item.html"

@@ -88,7 +88,7 @@
 }
 .main .title-right .round{
 	box-shadow: 10px 30px 80px ;
-	width: 130px;
+	width: 120px;
 	height: 130px;
 	float: right;
 	background: #032d4d;
@@ -96,7 +96,7 @@
 	position: relative;
 }
 .main .title-right .round a{
-	width: 68px;
+	width: 52px;
 	height: 136px;
 	margin-left: 15px;
 	text-decoration: none;
@@ -107,13 +107,14 @@
 	
 }
 .main .title-right .round a:last-child{
-	margin-left: 75px;
+	margin-left: 65px;
 	margin-top: 30px;
 }
 .main .list{
 	width: 1000px;
 	padding: 50px 5px;
 	margin-left: 140px;
+	box-sizing: border-box;
 }
 .main .list .col{
 	margin-bottom: 10px;
@@ -157,8 +158,8 @@
 	float: right;
 	margin-top: 5px;
 }
-.footer{
+/* .footer{
 	width: 100%;
 	height: 400px;
 	background: #007788;
-}
+} */
