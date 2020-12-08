@@ -30,12 +30,19 @@ footer::before{
     background: url(/Wall-Street/pages/wll-demo/img/4.png) repeat-x;
     background-size: 100% 43px;
 }
-.foot.container{
-    padding:0;
+.foot-con{
+    width: 1100px;
+    margin:0 auto;
+
+}
+.foot-con li{
+    float: left;
+    padding:0 30px;
 }
 dt{
     font-size: 18px;
     color:white;
+    font-weight: bolder;
 }
 dd{
     font-size: 14px;
@@ -59,8 +66,8 @@ dd{
     background:url(/Wall-Street/pages/wll-demo/img/6.png);
 }
 .secwm{
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
     padding:10px;
     background: white;
 }
@@ -70,4 +77,13 @@ dd{
 }
 .pt{
     margin-top:15px;
+}
+.pt span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+
+}
+.weibo{
+    background-image:url("img") ;
 }
