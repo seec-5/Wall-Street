@@ -11,6 +11,7 @@ body .travel-box {
   top: 0%;
   left: 0%;
   padding: 110px;
+  box-sizing: border-box;
 }
 
 body .travel-box .container {

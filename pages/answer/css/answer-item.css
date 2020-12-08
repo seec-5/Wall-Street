@@ -4,6 +4,7 @@
   padding: 10px;
   max-width: 1181px;
   margin: 0 auto;
+  margin-box-sizing: border-box;
 }
 
 .answer-box .top-crumbs {
