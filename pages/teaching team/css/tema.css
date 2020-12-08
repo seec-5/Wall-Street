@@ -71,7 +71,7 @@
 	height: 460px;
 	/* background: gray; */
 }
-.main2 .container span{
+.main2 .containers span{
 	color: #043458;
 	font-size: 40px;
 	font-weight: bold;
@@ -107,8 +107,8 @@
 	width: 150px;
 	height: 150px;
 }
-.viewbox .content{
-	margin-top: 20px;
+.viewbox .contents{
+	/* margin-top: 20px; */
 }
 .viewbox li{
 	width: 180px;
