@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.head{
+	height: 120px;
+	/* background: pink; */
+}
+.section{
+	width: 100%;
+	height: 70px;
+	/* background: pink; */
+}
+.section ul{
+	margin-left: 50px;
+}
+.section ul li{
+	float: left;
+	list-style: none;
+	line-height: 70px;
+	margin-left: 10px;
+}
+.section ul li:nth-child(3){
+	color: red;
+}
+.banner{
+	display:flex;
+	width: 100%;
+	height: 700px;
+	/* background: gray; */
+}
+.banner-left{
+	width: 550px;
+	height: 550px;
+	/* background: green; */
+}
+.banner-left img{
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.banner-left-top{
+	margin-left: 150px;
+	font-size: 70px;
+	color: #EE2D42;
+	font-weight: bold;
+	
+}
+.banner-right{
+	display: flex;
+	width: 650px;
+	height: 550px;
+	/* background: yellow; */
+}
+.banner-right p:nth-child(1){
+	font-size: 30px;
+}
+.banner-right .center{
+	margin-top:110px;
+	color: #043458;
+	font-weight: bold;
+}
+.banner-right .center p:nth-child(2){
+	margin-top:15px;
+}
+.banner-right .center p:nth-child(3){
+	margin-top:15px;
+	margin-left: 40px;
+	font-size: 25px;
+	color: red;
+}
+.main{
+	width: 100%;
+	height: 1100px;
+	/* background: orange; */
+}
+.main .title{
+	height: 200px;
+	/* background: #00CC00; */
+}
+.main .title-left{
+	font-size: 60px;
+	margin-left: 150px;
+	color: #EE2D42;
+	font-weight:bold;
+}
+.main .title-right .round{
+	box-shadow: 10px 30px 80px ;
+	width: 130px;
+	height: 130px;
+	float: right;
+	background: #032d4d;
+	border-radius: 50%;
+	position: relative;
+}
+.main .title-right .round a{
+	width: 68px;
+	height: 136px;
+	margin-left: 15px;
+	text-decoration: none;
+	font-size: 45px;
+	color: white;
+	position: absolute;
+	margin-top: 30px;
+	
+}
+.main .title-right .round a:last-child{
+	margin-left: 75px;
+	margin-top: 30px;
+}
+.main .list{
+	width: 1000px;
+	padding: 50px 5px;
+	margin-left: 140px;
+}
+.main .list .col{
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #043458;
+}
+.main .list .col i{
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background: black;
+	margin-top: 10px;
+}
+.main .list .col i:before{
+	left: -8px;
+	top: -8px;
+	position: absolute;
+	border-radius: 50%;
+	display: block;
+	content: '';
+	width: 25px;
+	height: 25px;
+	border: 3px solid black;
+}
+.main .list .col span{
+	margin-left: 20px;
+	margin-top: 5px;
+}	
+.main .list .col a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #043458;
+}
+.main .list .col a:hover{
+	color: lightblue;
+}
+.main .list .col label{
+	float: right;
+	margin-top: 5px;
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	background: #007788;
+}
