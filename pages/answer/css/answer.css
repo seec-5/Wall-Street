@@ -303,7 +303,7 @@
   width: 180px;
   height: 180px;
   border: 1px solid rgba(4, 52, 88, 0.05);
-  animation: js 1s infinite;
+  animation: js 1.5s infinite;
 }
 
 .answer-box .answer-cont-bottom .answer-bottom-center .js:nth-child(2) {
@@ -353,6 +353,9 @@
   .answer-box .top-crumbs {
     display: none !important;
   }
+  .answer-box .answer-ipt-rigt {
+    display: none;
+  }
   .answer-box .answer-cont-box {
     width: 90% !important;
     margin-left: 0% !important;
@@ -363,6 +366,12 @@
   .answer-box .answer-cont-box .answer-cont-box-rigt {
     width: 100%;
   }
+  .answer-box .answer-cont-bottom {
+    width: 97%;
+  }
+  .answer-box .answer-cont-bottom .answer-bottom-center {
+    left: 0;
+  }
   .answer-box .answer-bottom-right {
     display: none;
   }
@@ -371,5 +380,8 @@
   }
   .answer-box .sele {
     display: block !important;
+  }
+  .foot {
+    width: 99%;
   }
 }
