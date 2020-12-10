@@ -108,4 +108,7 @@
   .answer-box .answer-item-box h2 {
     text-align: left;
   }
+  .foot {
+    width: 99%;
+  }
 }

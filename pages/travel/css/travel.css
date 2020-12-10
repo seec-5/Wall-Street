@@ -10,13 +10,12 @@ body .travel-box {
   position: absolute;
   top: 0%;
   left: 0%;
-  padding: 110px;
+  max-padding: 110px;
   box-sizing: border-box;
 }
 
 body .travel-box .container {
-  width: 1181px;
-  margin: 0 auto;
+  max-width: 1181px;
 }
 
 body .travel-box .container .travel-box-top {
