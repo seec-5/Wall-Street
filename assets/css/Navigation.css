@@ -8,7 +8,12 @@
 			background-color: #f2f1f1;
 			/* display: none; */
 		}
-
+.navigation button{
+	background: none;
+}
+.navigation a{
+	color: #000;
+}
 		.navbar {
 			width: 1181px;
 			height: 40px;
@@ -106,6 +111,7 @@
 		.nav-right li:nth-child(6) {
 			width: 76px;
 			padding: 0 20px 0 17px;
+			display: flex;
 		}
 
 		.nav-right li:nth-child(6) button {
@@ -317,6 +323,9 @@
 			margin: 0 auto;
 			display: flex;
 			z-index: 100;
+		}
+		.navigation-last a{
+			color: #000;
 		}
 
 		.last-btn {

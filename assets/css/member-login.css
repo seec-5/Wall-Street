@@ -3,11 +3,11 @@
 	padding-top: 110px;
 }
 .member-box{
-	padding-top: 24px;
+	padding-top: 24px; 
 	width: 1180px;
 	margin: 0 auto;
 }
-.member-txt{
+.member-txt{ 
 	width: 1099px;
 	line-height: 70px;
 	font-size: 60px;
@@ -27,11 +27,13 @@
 	position: relative;
 }
 .member-left{
+	/* position:absolute; */
 	width: 620px;
 	height: 361px;
 	margin-left: 82px;
 	background-color: #d7dfe5;
 	float: left;
+	z-index: -999;
 }
 .member-tab-list{
 	display: block;
@@ -65,6 +67,7 @@
 .foot-inp{
 	/* height: 454px; */
 	width: 460px;
+	height: 169px;
 	margin: 0 auto;
 }
 .foot-inp-item{
@@ -118,6 +121,11 @@
 	font-weight: bold;
 	font-family: "Microsoft Yahei", Tahoma, Helvetica, Arial, "微软雅黑", STXihei, "华文细黑", sans-serif;
 	margin: 30px 242px;
+	box-shadow: 0 0 20px #ee2d42;
+}
+.member-btn:hover{
+	background-color: #f0828ffa;
+	/* opacity: .8; */
 }
 .back-img{
 	position: absolute;
@@ -166,6 +174,20 @@
 	font-weight: bold;
 	margin-bottom: 40px;
 }
+.member-right button{
+	margin-top: 20px;
+	width: 150px;
+	height: 35px;
+	background: #043458;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	font-family: "Microsoft Yahei", Tahoma, Helvetica, Arial, "微软雅黑", STXihei, "华文细黑", sans-serif;
+}
+.member-right button:hover{
+	background-color: #0082a9;
+}
 .member-only {
 	
 }
@@ -189,6 +211,9 @@
 	display: inline-block;
 	line-height: 35px;
 	
+}
+.form-two{
+	display: none;
 }
 @media (max-width: 768px) {
 	.member-right{

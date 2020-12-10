@@ -97,6 +97,8 @@ let arr = [
         }
 ]
 $(".head").load("/Wall-Street/pages/home/Navigation.html")
+$(".foot").load("/Wall-Street/pages/wll-demo/foot.html")
+
 for(let i in arr){
         if(i%2==0){
 
