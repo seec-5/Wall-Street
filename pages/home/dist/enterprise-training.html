@@ -5,6 +5,7 @@
 		<title></title>
 		<link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="../../assets/css/enterprise-training.css">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"> 
 	</head>
 	<style>
 		
@@ -12,8 +13,8 @@
 	<body>
 		<div id="a"></div>
 		<div class="lq-enterprise-training">
-			<div class="container">
-				<div class="top">
+			<div class="container-fluid">
+					<div class="top">
 					<ul class="navbar">
 						<li><a href="">首页</a></li>
 						<li>|</li>
@@ -28,6 +29,9 @@
 						<div><a href="">行政管理人员解决方案</a></div>
 					</div>
 				</div>
+			</div>
+			<div class="container">
+			
 				<div class="lq-enterprise-training-middle">
 					<h1 class="text-center">为企业发展量身订制<br>解决方案</h1>
 					<div class="text-center">你的企业已经实现国际化了吗？你渴望进军全球市场吗? 华尔街英语多种多样的课程工具可以帮助你的企业评估并提高员工的英语水平。在今天日益全球化的经济环境中，这将成为致胜的关键。在华尔街英语，我们将以优质的教学水平来培训你的员工，提升企业的全球竞争力。</div>
@@ -170,14 +174,13 @@
 						</div>
 					</div>
 				</div>
-				<!-- 轮播图 -->
-				<div id="carousel-example-generic" class="carousel slide visible-xs-block">
-				
-				
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<div class="row-one">
+		
+
+				<!-- swiper轮播图开始 -->
+				  <div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="row-one">
 							<h2>01</h2>
 							<h2>审核</h2>
 							<div class="row-1 row-block">
@@ -194,9 +197,9 @@
 								<div class="row-content">定期的员工评估准</div>
 							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="row-two">
+							</div>
+							<div class="swiper-slide">
+								<div class="row-two">
 							<h2>02</h2>
 							<h2>教学</h2>
 							<div class="row-1 row-block">
@@ -230,9 +233,9 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="item">
-						<div class="row-three">
+							</div>
+							<div class="swiper-slide">
+								<div class="row-three">
 							<h2>03</h2>
 							<h2>赋能</h2>
 							<div class="row-1 row-block">
@@ -266,20 +269,13 @@
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			
-				</a>
-				</div>
-				<!-- 轮播图结束 -->
+							</div>
+						</div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+  			</div>
+				<!-- swiper轮播图结束 -->
 				<div class="brand">
 					<div class="line"></div>
 					<div class="brand-circle">
@@ -304,7 +300,9 @@
 					</div>
 				</div>
 				<!-- 企业培训尾部 -->
-				<div class="enterprise-footer">
+			</div>
+			<div class="container-fluid">
+					<div class="enterprise-footer">
 					<h2 class="text-center">
 						华尔街英语<span>企业用户</span>付款官方通道
 					</h2>
@@ -341,6 +339,7 @@
 		</div>
 		<div id="footer"></div>
 	</body>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
 	<script type="text/javascript" src='../../assets/js/jquery-3.5.1.min.js'></script>
 	<script type="text/javascript" src='../../assets/js/enterprise-training.js'></script>
 	<script type='text/javascript' src='../../assets/bootstrap/js/bootstrap.js'></script>

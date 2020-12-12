@@ -38,6 +38,8 @@ $('.cities .li').click(function() {
 				$('.info-arr').html(str1)
 			}
 			var map = new BMapGL.Map('map-wrapper');
+			var marker1 = new BMapGL.Marker(new BMapGL.Point(data.data[index].lat, data.data[index].log));
+map.addOverlay(marker1);
 			map.centerAndZoom(new BMapGL.Point(data.data[index].lat, data.data[index].log), 12);
 			var opts = {
 				width: 230,
@@ -70,7 +72,8 @@ $('.cities .li').click(function() {
 })
 var map = new BMapGL.Map('map-wrapper');
 map.centerAndZoom(new BMapGL.Point(116.395645038, 39.9299857781), 12);
-
+var marker1 = new BMapGL.Marker(new BMapGL.Point(116.395645038, 39.9299857781));
+map.addOverlay(marker1);
 var opts = {
 	width: 230,
 	height: 250,

@@ -7,7 +7,6 @@
 .lq-register-wrapper {
 	margin-bottom: 130px;
 }
-
 @media (min-width:768px) {
 	.container>h2 {
 		font-size: 50px;
@@ -30,7 +29,7 @@
 	}
 
 	.content-form {
-		width: 702px;
+		width: 60%;
 		height: 900px;
 		background-color: rgb(215, 223, 229);
 		padding: 50px;
@@ -48,6 +47,7 @@
 
 	.content-form form>div.username-wrapper input {
 		width: 80px;
+		margin-bottom:5px;
 	}
 
 	.content-form form>div.username-wrapper input.phone-wrapper .ipt {
@@ -288,9 +288,8 @@
 
 	.caret {
 		position: absolute;
-		right: 120px;
+		left:30%;
 		top: 60%;
-		/* transform: translateY(-50%); */
 	}
 
 	.isAgree {
