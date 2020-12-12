@@ -101,6 +101,7 @@
 		}
 		.navbar-change{
 			/* display: none; */
+			position: fixed;
 			z-index: 999;
 		}
 		.nav-left li:hover{
@@ -114,6 +115,7 @@
 		}
 		.navbar-change{
 			width: 100%;
+			background-color: #fff;
 		}
 		.show-navbar{
 			height: 54px;
@@ -421,6 +423,16 @@
 		.tbox:hover .side-two{
 			display: block;
 		}
+		.navigation-mask{
+			position: fixed;
+			left: 0;
+			top: 0;
+			background-color: rgba(0,0,0,.5);
+			width: 100%;
+			z-index: 9;
+			height: 100%;
+			display: none;
+		}
 		@media (max-width: 768px){
 			.navigation{
 				display: none;
@@ -437,6 +449,11 @@
 				z-index: 999;
 			}
 			.side-flex{
+				display: none;
+			}
+		}
+		@media (min-width: 768px){
+			.navbar-change{
 				display: none;
 			}
 		}
