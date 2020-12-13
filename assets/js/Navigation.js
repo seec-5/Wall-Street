@@ -2,6 +2,7 @@ $(".navbar-change").on("click",".list-four",function(){
 	// console.log(1)
 	$(".navbar-change").find(".show-navbar").hide();
 	$(".navbar-change").find(".showbox").show();
+	$(".navigation-mask").show();
 })
 $(".navbar-change").on("click",".show-close",function(){
 	$(".showbox").hide();
@@ -72,7 +73,7 @@ $(`<div class="show-navbar">
 					</ul>
 				</div>
 			</div>
-			<div class="showbox">
+			<div class="showbox ">
 				<div class="show-head">
 					<ul>
 						<li>会员/学员</li>
@@ -81,7 +82,7 @@ $(`<div class="show-navbar">
 					</ul>
 					<button type="button" class="show-close"></button>
 				</div>
-				<div class="show-headson">
+				<div class="show-headson animated fadeInRightBig">
 					<ul class="headson-list">
 						<li>首页</li>
 						<li class="included">
