@@ -1,1 +1,1 @@
-$(".foot").load("/Wall-Street/pages/wll-demo/foot.html")
+$(".foot").load("../../pages/wll-demo/foot.html")
