@@ -17,6 +17,7 @@ h2 {
 .lq-enterprise-training {
 	width: 100%;
 	height: 100%;
+	overflow:hidden;
 }
 
 .enterprise-footer::before{
@@ -45,8 +46,9 @@ h2 {
 	}
 @media (min-width:768px) {
 	.lq-enterprise-training .top{
-	width:1262px;
+	width:1260px;
 	height:650px;
+	overflow:hidden;
 }
 
 	.top .navbar {
@@ -139,10 +141,11 @@ h2 {
 	}
 
 	.solution-list {
-			width:1262px;
+		width:1150px;
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-around;
+		overflow:hidden;
 	}
 
 	.solution-list li {
@@ -254,7 +257,9 @@ h2 {
 	}
 
 	.row {
-			width:1262px;
+			width:1150px;
+			margin:0 auto;
+			overflow:hidden;
 	}
 
 	.row-one h2 {
@@ -300,7 +305,8 @@ h2 {
 
 	/* 品牌 */
 	.brand {
-			width:1262px;
+		overflow:hidden;
+		width:1150px;
 		height: 100%;
 		display: flex;
 		justify-content: space-between;
