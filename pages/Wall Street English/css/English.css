@@ -124,7 +124,18 @@
 	width: 670px;
 	height: 300px;
 	/* border:1px solid red; */
-	margin-left: 60px;
+	margin-left: 10px;
+}
+/* .banner2 .round .box .wrap{
+	width: 800px;
+} */
+.banner2 .round .box .prew{
+	margin-top: -150px;
+	/* margin-left: -20px; */
+}
+.banner2 .round .box .next{
+	margin-top: -150px;
+	
 }
 
 .banner2 .round .item_content_middle{
@@ -134,6 +145,8 @@
     width: 150px;
     float: left;
 }
+
+
 .banner2 .round .icon-recognised{
 	/* background: red; */
 	width:150px ;
